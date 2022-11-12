@@ -1,51 +1,71 @@
-body{
-    background-color: black;
-    margin:0;
-    
+body {
+  background-color: black;
+  margin: 0;
 }
 
-.main{
-    margin:0 5% 0 5%;
-    height: 100vh;
+.main {
+  margin: 0 5% 0 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
 }
 
-*{
-    color: aliceblue;
+* {
+  color: aliceblue;
 }
 
-#profile{
-    border-radius: 50%;
-    width: 10rem;
-    height: auto;
-    /* margin:0 0 0 43%; */
-    
+#profile {
+  border-radius: 50%;
+  width: 11rem;
+  height: auto;
+  /* margin:0 0 0 43%; */
 }
 
-.image-links{
-    width: 2.5em;
-    margin:0 1em 0 0 ;
-}
-.links{
-    margin:1.5rem 0 0 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+figure{
+  margin:0;
 }
 
-.hero{
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  
+.image-links {
+  width: 2.5em;
+  margin: 0 1em 0 0;
+}
+.links {
+  margin: 1.5rem 0 0 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
-h1{
-    margin: 2px 0;
+.hero {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
-h1, h3{
-    margin: 0.5rem 0 0 0 ;
-    font-family:'Courier New', Courier, monospace;
+Body, h1, h3{
+  margin: 0.5rem 0 0 0;
+  font-family:'Courier New', Courier, monospace;
+}
+
+.info-section{
+  text-align: center;
+}
+
+strong{
+  color:aqua;
+  background-color: none;
+}
+
+section{
+  margin:0 0 1em 0;
+}
+
+.f-link{
+  width:2em;
+  margin:0 1em 0 0;
 }
