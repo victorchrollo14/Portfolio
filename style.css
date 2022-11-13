@@ -1,3 +1,8 @@
+:root{
+  --text-color: rgb(0, 183, 255);
+}
+
+
 body {
   background-color: black;
   margin: 0;
@@ -19,7 +24,7 @@ body {
 
 #profile {
   border-radius: 50%;
-  width: 11rem;
+  width:clamp(10em, 15em, 20em);
   height: auto;
   /* margin:0 0 0 43%; */
 }
@@ -41,6 +46,7 @@ figure{
 
 .hero {
   height: 100vh;
+  width:100%;
   display: flex;
   align-items: center;
   justify-content: center;
