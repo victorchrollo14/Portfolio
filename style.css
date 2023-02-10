@@ -1,4 +1,4 @@
-:root{
+:root {
   --text-color: rgb(0, 183, 255);
 }
 
@@ -14,7 +14,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: garamond;
   text-align: center;
 }
 
@@ -24,19 +24,20 @@ body {
 
 #profile {
   border-radius: 50%;
-  width:clamp(10em, 15em, 20em);
+  width: clamp(10em, 15em, 20em);
   height: auto;
   /* margin:0 0 0 43%; */
 }
 
-figure{
-  margin:0;
+figure {
+  margin: 0;
 }
 
 .image-links {
   width: 2.5em;
   margin: 0 1em 0 0;
 }
+
 .links {
   margin: 1.5rem 0 0 0;
   display: flex;
@@ -46,32 +47,42 @@ figure{
 
 .hero {
   height: 100vh;
-  width:100%;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
 
-Body, h1, h3{
+Body,
+h1,
+h3 {
   margin: 0.5rem 0 0 0;
-  font-family:'Courier New', Courier, monospace;
+  font-family: 'Courier New', Courier, monospace;
 }
 
-.info-section{
+.info-section {
   text-align: center;
 }
 
-strong{
-  color:aqua;
+strong {
+  color: aqua;
   background-color: none;
 }
 
-section{
-  margin:0 0 1em 0;
+section {
+  margin: 0 0 1em 0;
 }
 
-.f-link{
-  width:2em;
-  margin:0 1em 0 0;
+.f-link {
+  width: 2em;
+  margin: 0 1em 0 0;
+}
+
+.unique {
+  background: rgb(0, 179, 255);
+  background: linear-gradient(90deg, rgba(0, 179, 255, 1) 0%, rgba(96, 1, 255, 1) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
